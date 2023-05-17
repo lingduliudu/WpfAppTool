@@ -8,8 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="src\" />
     <Folder Include="assert\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
 </Project>
