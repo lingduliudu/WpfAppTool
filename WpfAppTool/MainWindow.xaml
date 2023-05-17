@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfAppTool"
         xmlns:src="clr-namespace:WpfAppTool.src.model"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="800">
+        Title="MainWindow" Height="750" Width="800">
     <Window.DataContext>
         <src:Index/>
     </Window.DataContext>
@@ -17,7 +17,7 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="400"></RowDefinition>
-            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
         </Grid.RowDefinitions>
         <Border BorderThickness="2">
             <Border.BorderBrush>
@@ -43,7 +43,11 @@
             <TextBlock>12</TextBlock>
         </Grid>
         <Grid Grid.Row="1" Grid.Column="1">
-            <Button Command="{Binding TestCommand}"></Button>
+            <StackPanel Height="200" HorizontalAlignment="Left">
+                <TextBox HorizontalAlignment="Left" Height="80" Width="300"  AcceptsReturn="True" TextWrapping="Wrap"></TextBox>
+                <Button Command="{Binding TestCommand}" HorizontalAlignment="Right" Width="66" Height="33" VerticalAlignment="Bottom"></Button>
+            </StackPanel>
+            
         </Grid>
     </Grid>
 </Window>
