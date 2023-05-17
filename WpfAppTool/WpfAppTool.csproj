@@ -7,4 +7,9 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="assert\" />
+  </ItemGroup>
+
 </Project>
