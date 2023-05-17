@@ -47,7 +47,6 @@
                 <TextBox HorizontalAlignment="Left" Height="80" Width="300"  AcceptsReturn="True" TextWrapping="Wrap"></TextBox>
                 <Button Command="{Binding TestCommand}" HorizontalAlignment="Right" Width="66" Height="33" VerticalAlignment="Bottom"></Button>
             </StackPanel>
-            
         </Grid>
     </Grid>
 </Window>
